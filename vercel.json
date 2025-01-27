@@ -16,7 +16,7 @@
           },
           {
             "key": "Access-Control-Allow-Origin",
-            "value": "https://kapstone-landing.vercel.app, http://localhost:5173"
+            "value": "http://localhost:5173"
           }
         ]
       }
