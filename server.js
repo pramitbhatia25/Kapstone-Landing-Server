@@ -79,7 +79,7 @@ const projectsData = [
   {
       id: 40,
       name: "Online Portfolio Builder (ReactJS+NodeJS)",
-      category: ["Web Development", "Machine Learning", "Cloud Computing"],
+      category: ["Web Developmengt", "Machine Learning", "Cloud Computing"],
       dateUploaded: "01/14/2025",
       userName: "portfolio_builder22",
   }
