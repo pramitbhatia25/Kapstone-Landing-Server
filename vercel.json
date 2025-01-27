@@ -1,0 +1,32 @@
+{
+    "version": 3,
+    "builds": [
+      {
+        "src": "server.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "headers": [
+      {
+        "source": "/(.*)",
+        "headers": [
+          {
+            "key": "Referrer-Policy",
+            "value": "strict-origin"
+          },
+          {
+            "key": "Access-Control-Allow-Origin",
+            "value": "https://kapstone-landing.vercel.app"
+          }
+        ]
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/server.js",
+        "methods": ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"]
+      }
+    ]
+  }
+  
