@@ -86,8 +86,7 @@ const projectsData = [
 ];;
 
 const corsOptions = {
-  origin: ['http://localhost:5173', 'https://kapstone-landing.vercel.app'],
-  optionsSuccessStatus: 200
+  origin: ['https://kapstone-landing.vercel.app/projects', 'https://kapstone-landing.vercel.app']
 };
 
 app.use(cors(corsOptions));
